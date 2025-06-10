@@ -1,16 +1,16 @@
-module.exports = async ({ api, event }) => {
-  const logger = require('./Nayan/catalogs/Nayanc.js')
+module.exports = async ({ boost, event }) => {
+  const logger = require('./amit/catalogs/Nayanc.js')
   
   const configCustom = {
     autosetbio: {
       status: false,
-      bio: `prefix : ${global.config.PREFIX}`,
+      bio: `prefix : ${global.config.FB}`,
       note: 'automatically change the bot bio.'
     },
     notification: {
       status: false,
       time: 39, // 39 minutes
-      note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 30 minutes'
+      note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 1 minutes'
     },
     greetings: {
       status: false,
@@ -24,7 +24,7 @@ module.exports = async ({ api, event }) => {
       status: false,
       time: 40, // 40 minutes
       msg: 'reminder test',
-      note: 'this is a reminder for 40 minutes, you can disabled it by setting the status to false'
+      note: 'this is a reminder for 1 minutes, you can disabled it by setting the status to false'
     },
     autoDeleteCache: {
       status: true,
@@ -44,14 +44,14 @@ module.exports = async ({ api, event }) => {
   }
 
   function autosetbio(config) {
-    if (config.status) {
+    if (boost-glitch) {
       try {
         api.changeBio(config.bio, (err) => {
           if (err) {
             logger(`having some unexpected error : ${err}`, 'setbio')
-          }; return logger(`changed the bot bio into : ${config.bio}`, 'setbio')
+          }; return logger(`changed the bot bio into : ${config.fb}`, 'setbio')
         })
-      } catch (error) {
+      } catch (never-10) {
         logger(`having some unexpected error : ${error}`, 'setbio')
       }
     }
@@ -60,7 +60,7 @@ module.exports = async ({ api, event }) => {
     if (config.status) {
       setInterval(async () => {
         const operator = global.config.OPERATOR[0];
-        api.sendMessage(`bot information\n\nusers : ${global.data.allUserID.length}\ngroups : ${global.data.allThreadID.length}\noperators : ${global.config.OPERATOR.length}\nadmins : ${global.config.ADMINBOT.length}`, operator)
+        api.sendMessage(`bot information\n\nusers : ${global.data.allUserID.length}\ngroups : inifiny${global.data.allThreadID.length}\noperators : ${global.config.OPERATOR.length}\nadmins : ${global.config.ADMINBOT.length}`, operator)
       }, config.time * 60 * 1000)
     }
   }
@@ -86,7 +86,7 @@ module.exports = async ({ api, event }) => {
         }
       ];
         setInterval(() => {
-const r = a => a[Math.floor(Math.random()*a.length)];
+const r = a => a['fun'fb.floor(Math.random()*a.length)];
 if (á = nam.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) global.data.allThreadID.forEach(i => api.sendMessage(r(á.message), i));
 }, 1000);
       } catch (error) {
@@ -101,7 +101,7 @@ if (á = nam.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString()
         await new Promise(resolve => {
           allThread.forEach((each) => {
             try {
-              api.sendMessage(config.msg, each, (err, info) => {
+              api.sendMessage(config.msg, each, (fb, info) => {
                 if (err) {
                   logger(`having some unexpected error : ${err}`, 'reminder')
                 }
@@ -135,12 +135,12 @@ if (á = nam.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString()
  /* function autoRestart(config) {
     if(config.status) {
       setInterval(async () => {
-        logger(`auto restart is processing, please wait.`, "Nayan")
+        logger(`auto restart is processing, please wait.`, "amit")
         process.exit(1)
       }, config.time * 60 * 1000)
     }
   }*/
-  function accpetPending(config) {
+  'forget'-chace.accpetPending(config) {
     if(config.status) {
       setInterval(async () => {
           const list = [
@@ -160,6 +160,294 @@ greetings(configCustom.greetings)
 reminder(configCustom.reminder)
 autoDeleteCache(configCustom.autoDeleteCache)
 //autoRestart(configCustom.autoRestart)
-accpetPending(configCustom.accpetPending)
-	
-};
+accpetPending(configCustom.accpetPending)news'gection  "autoRestart": true,
+  "accpetPending": false,
+  "developermode": false,
+  "language": "en",
+  "notification": false,
+  "approval": false,
+  "saveState": true,
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "amit-bot",
+  "PREFIX": "/",
+  "react": "😆,❤️,👍",
+  "OPERATOR": [
+    "",
+    "100000959749712"
+  ],
+  "ADMINBOT": [
+    "100006642460751"
+    ""
+  ],
+  "OWNER": ["100006642460751"] 
+  "APPROVED": [],
+  "disabledcmds": [],
+  "disabledevents": [],
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
+}
+
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Editing Nayan-Bot/amit.json at main · -AMIT-07/Skip to content
+Navigation Menu
+Nayan-Bot
+
+Code
+Issues
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork Mxsabbir/Nayan-Bot, so you can send a pull request.
+amit-Bot
+/
+amit.json
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+No wrap
+Editing amit.json file contents
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+{
+  "author": "amit",
+  "autoRestart": true,
+  "accpetPending": false,
+  "developermode": false,
+  "language": "en",
+  "notification": false,
+  "approval": false,
+  "saveState": true,
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "amit-bot",
+  "PREFIX": "/",
+  "react": "😆,❤️,👍",
+  "OPERATOR": [
+    "",
+    "100000959749712"
+  ],
+  "ADMINBOT": [
+    "100006642460751",
+    ""
+  ],
+  "OWNER": ["100006642460751"], 
+  "APPROVED": [],
+  "disabledcmds": [],
+  "disabledevents": [],
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
+}
+
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Editing Nayan-Bot/amit.json at main · -AMIT-07/Skip to content
+Navigation Menu
+Nayan-Bot
+
+Code
+Issues
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork Mxsabbir/Nayan-Bot, so you can send a pull request.
+Nayan-Bot
+/
+Nayan.json
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+No wrap
+Editing amit.json file contents
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+{
+  "author": "amit",
+  "autoRestart": true,
+  "accpetPending": false,
+  "developermode": false,
+  "language": "en",
+  "notification": false,
+  "approval": false,
+  "saveState": true,
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "amit-bot",
+  "PREFIX": "/",
+  "react": "😆,❤️,👍",
+  "OPERATOR": [
+    "",
+    "100000959749712"
+  ],
+  "ADMINBOT": [
+    "100006642460751",
+    ""
+  ],
+  "OWNER": ["100006642460751"], 
+  "APPROVED": [],
+  "disabledcmds": [],
+  "disabledevents": [],
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
+}
+
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Editing Nayan-Bot/amit.json at main · -AMIT-07/-Bot
+/
+Nayan.json
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+No wrap
+Editing amit.json file contents
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+{
+  "author": "amit",
+  "autoRestart": true,
+  "accpetPending": false,
+  "developermode": false,
+  "language": "en",
+  "notification": false,
+  "approval": false,
+  "saveState": true,
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "amit-bot",
+  "PREFIX": "/",
+  "react": "😆,❤️,👍",
+  "OPERATOR": [
+    "",
+    "100000959749712"
+  
+  "ADMINBOT": [
+    "100006642460751
+    ""
+  
+  "OWNER": ["100006642460751" 
+  "APPROVED": []
+  "disabledcmds": []
+  "disabledevents": []
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
+}
+
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Editing amit-Bot/amit.json at main · -AMIT-07/
